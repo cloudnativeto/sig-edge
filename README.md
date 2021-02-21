@@ -4,6 +4,10 @@
 
 云原生社区边缘计算SIG，三方中立，志在研究国内外，各家边缘计算项目，推进国内边缘计算的发展，攻艰、共建边缘计算，为边缘计算的发展尽份心力！
 
+<div align="center">
+  <img src="doc/picture/edge-arch.png" width=80% title="SuperEdge Architecture">
+</div>
+
 -   我们的目标：交流学习，长成专家！
 -   我们的初衷：和志同道合的人一起更好的学习边缘计算；
 -   我们的类型：边缘计算兴趣学习小组；
