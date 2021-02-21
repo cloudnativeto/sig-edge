@@ -5,7 +5,7 @@
 云原生社区边缘计算SIG，三方中立，志在研究国内外，各家边缘计算项目，推进国内边缘计算的发展，攻艰、共建边缘计算，为边缘计算的发展尽份心力！
 
 <div align="center">
-  <img src="doc/picture/edge-arch.png" width=80% title="SuperEdge Architecture">
+  <img src="doc/picture/edge-arch.png" width=80% title="edge Architecture">
 </div>
 
 -   我们的目标：交流学习，长成专家！
@@ -48,6 +48,12 @@
 
     有关于 edge 的问题可[提交 Issue](https://github.com/cloudnativeto/sig-edge/issues/new) ，也可以直接在微信群中进行讨论，首推提交[提交 Issue](https://github.com/cloudnativeto/sig-edge/issues/new) ，并发微信群。
 
+-   如何学习？
+
+    我们建立了语雀资料库，您可以在其中找到我们往期的资料和我们收集的学习资料，欢迎查看。
+
+    -   边缘SIG语雀资料库：https://www.yuque.com/gi3eyw
+
 -   如何领取task? 
 
     云原生社区边缘计算SIG的Tasks，会统一放入如下的表格中，对于自己感兴趣的，可以在表格的认领人填上自己的信息，及预计完成时间；
@@ -86,5 +92,5 @@
 -   [Airship](https://github.com/paragonie/airship)
 -   [OpenNESS](https://github.com/open-ness)
 
-排名不分先后，后期也可能会删除或者增加其他项目，具体的活动可能只针对其中一个项目或者多个项目展开，欢迎有兴趣的朋友欢迎参与。
+排名不分先后，后期也可能会删除或者增加其他项目，具体的活动可能只针对其中一个项目或者多个项目展开，欢迎有兴趣的朋友参与。
 
