@@ -21,8 +21,8 @@ description: 欢迎来到云原生社区边缘计算 SIG。
   * [莫燕敏](https://github.com/Yanmin-mo)
   * [叶王](https://github.com/ikingye)
 * 本月负责人（轮换制，为 SIG 贡献最大的 2 人兼任，任期一个月，处理 SIG 大小事务，受社区管理者和创始人监管，可连任）
-  * [王冬](https://github.com/attlee-wang) 微信号：173-4653-1024
-  * [刘淑娟](https://github.com/janeliul) 微信号：Jane\_liu\_l
+  * [王冬](https://github.com/attlee-wang)（微信号：173-4653-1024）
+  * [刘淑娟](https://github.com/janeliul)（微信号：Jane\_liu\_l）
 
 ## 如何加入？
 
@@ -34,7 +34,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 
 加群后要想成为云原生社区边缘 SIG 的志愿者，可在下面的 SIG 成员登记表中登记自己的相关信息，联系负责人您拉入边缘 SIG 志愿者群，我们将一块打造 `云原生社区边缘计算 SIG`：
 
-志愿者登记表：[https://docs.qq.com/sheet/DWnFFWkZ3bmJTYk9U](https://docs.qq.com/sheet/DWnFFWkZ3bmJTYk9U)
+志愿者登记见[腾讯文档](https://docs.qq.com/sheet/DWnFFWkZ3bmJTYk9U)。
 
 ### 如何参与云原生社区边缘计算 SIG 活动？
 
@@ -89,4 +89,5 @@ SIG 成员难免有错误之处，或者做的不好的地方，或者您有更�
 * [边缘计算 SIG 打卡学习记录](https://docs.qq.com/sheet/DWkxlQ29nSFlBdGF6)
 * [云原生社区边缘计算 SIG 工作周报](https://docs.qq.com/doc/DWldHVVZnRG9Jck5B)
 
-![云原生社区公众号](https://i.loli.net/2020/10/22/7E6DNzWuBj2skeG.png)
+![&#x4E91;&#x539F;&#x751F;&#x793E;&#x533A;&#x516C;&#x4F17;&#x53F7;](https://i.loli.net/2020/10/22/7E6DNzWuBj2skeG.png)
+
