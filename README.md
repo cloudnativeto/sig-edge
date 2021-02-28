@@ -15,7 +15,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 我们的类型：边缘计算兴趣学习小组；
 * 研究的范围：只研究和边缘计算相关的项目，但不限于场景、系统、源码、异构硬件……
 * 云原生社区边缘计算 SIG 首页：[https://i.cloudnative.to/edge/](https://i.cloudnative.to/edge/)
-* 发起人
+* 发起人：
   * [王冬](https://github.com/attlee-wang)
   * [刘淑娟](https://github.com/janeliul)
   * [莫燕敏](https://github.com/Yanmin-mo)
@@ -32,7 +32,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 
 ### 如何成为云原生社区边缘 SIG 的志愿者？
 
-加群后要想成为云原生社区边缘 SIG 的志愿者，可在下面的 SIG 成员登记表中登记自己的相关信息，联系负责人您拉入边缘 SIG 志愿者群，我们将一块打造 `云原生社区边缘计算 SIG`：
+加群后要想成为云原生社区边缘 SIG 的志愿者，可在下面的 SIG 成员登记表中登记自己的相关信息，联系负责人您拉入边缘 SIG 志愿者群，我们将一块打造边缘计算 SIG。
 
 志愿者登记见[腾讯文档](https://docs.qq.com/sheet/DWnFFWkZ3bmJTYk9U)。
 
