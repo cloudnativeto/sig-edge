@@ -4,5 +4,5 @@
 
 ## 1. 学习资料库 <a id="xue-xi-zi-liao-ku-1"></a>
 
-* [资料总览](xue-xi-zi-liao-ku-1/zi-liao-zong-lan.md)
+* [1.1 资料总览](xue-xi-zi-liao-ku-1/zi-liao-zong-lan.md)
 
