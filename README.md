@@ -50,9 +50,11 @@
 
 -   如何学习？
 
-    我们建立了语雀资料库，您可以在其中找到我们往期的资料和我们收集的学习资料，欢迎查看。
+    我们会收集边缘计算相关学习资料，见：
 
-    -   边缘SIG语雀资料库：https://www.yuque.com/gi3eyw
+    -   边缘SIG学习资料库：https://https://github.com/cloudnativeto/sig-edge/blob/main/learn/README.md
+
+    也欢迎您通过这个资料库，把好的边缘计算学习资料推荐给大家。
 
 -   如何领取task? 
 
