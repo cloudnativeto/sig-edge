@@ -89,3 +89,4 @@ SIG 成员难免有错误之处，或者做的不好的地方，或者您有更�
 * [边缘计算 SIG 打卡学习记录](https://docs.qq.com/sheet/DWkxlQ29nSFlBdGF6)
 * [云原生社区边缘计算 SIG 工作周报](https://docs.qq.com/doc/DWldHVVZnRG9Jck5B)
 
+![云原生社区公众号](https://i.loli.net/2020/10/22/7E6DNzWuBj2skeG.png)
