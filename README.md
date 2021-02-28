@@ -66,7 +66,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 
 ### 如何学习？
 
-我们会收集边缘计算相关学习资料，见 [边缘计算 SIG 学习资料库](https://https://github.com/cloudnativeto/sig-edge/blob/main/learn/README.md)。
+我们会收集边缘计算相关学习资料，见 [边缘计算 SIG 学习资料库](https://github.com/cloudnativeto/sig-edge/blob/main/learn/README.md)。
 
 也欢迎您通过这个资料库，把好的边缘计算学习资料推荐给大家。
 
