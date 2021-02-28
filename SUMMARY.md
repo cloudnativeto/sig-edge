@@ -1,4 +1,4 @@
 # Table of contents
 
-* [sig-edge](README.md)
+* [云原生社区边缘计算 SIG](README.md)
 
