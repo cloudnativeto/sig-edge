@@ -1,31 +1,28 @@
 # 欢迎加入 云原生社区边缘计算 SIG
 
-
-[TOC]
-
 导语：
 
 > **云服务已成过去时，边缘计算才是未来！**
 
-<div align="center">
-  <img src="../../.gitbook/assets/xiaozhangyu.jpg" width=60% title="xiao zhang yu">
-</div>
+![xiao zhang yu](../picture/xiaozhangyu.jpg)
 
-## 一、边缘的发展简况
+## 边缘的发展简况
 
-<div align="center">
-  <img src="../../.gitbook/assets/wulianwang_shebei_shu.png" width=60% title="xiao zhang yu">
-</div>
 
-​	[Gartner](https://www.gartner.com/smarterwithgartner/)预测[到2025年，超过50%组织将使用分布式云，企业超过75%的数据是在靠近最终用户的边缘创建和处理的](https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-and-operations-leaders)。宝洁公司的首席技术官Alan Boehme，更是喊出了[**云服务已成过去时，边缘计算才是未来**](http://tech.sina.com.cn/csj/2019-10-05/doc-iicezzrr0191253.shtml)。我们先不讨论这些预测是否会成为现实，但是我们可以思考他们为什么会这么说？
 
-​	物理网发展的上半场，随着5G网络的普及，截止2020年，[全球270亿物联网设备联网](http://m.myjizhi.com/1000000000667235)，移动设备和物联网设备的数量指数级增加，Statista预测，到2025年，[全球物联网设备数将增长到750亿](http://m.myjizhi.com/1000000000667235)。物联网终端设备产生的数据量更是爆炸性的增长，其数据量和复杂性远远超过了网络的处理能力。如果将这些设备产生的所有数据传回数据中心，势必需要更多的宽带和计算资源，并且会有很难解决的数据延迟和完整性问题。
+![wulianwang shebei shu](/Users/attlee/go/src/sig-edge/doc/picture/wulianwang_shebei_shu.png)
 
-​	为了解决此类问题，边缘计算被推上了历史的舞台。直接在更接近数据源的地方对数据进行分析和处理，只将结果或者中心需要的数据才传回数据中心，可以试想一下可以为节省企业多少计算资源和网络宽带。
+[Gartner](https://www.gartner.com/smarterwithgartner/)预测[到2025年，超过50%组织将使用分布式云，企业超过75%的数据是在靠近最终用户的边缘创建和处理的](https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-and-operations-leaders)。宝洁公司的首席技术官Alan Boehme，更是喊出了[**云服务已成过去时，边缘计算才是未来**](http://tech.sina.com.cn/csj/2019-10-05/doc-iicezzrr0191253.shtml)。我们先不讨论这些预测是否会成为现实，但是我们可以思考他们为什么会这么说？
 
-## 二、什么是边缘计算
+物理网发展的上半场，随着5G网络的普及，截止2020年，[全球270亿物联网设备联网](http://m.myjizhi.com/1000000000667235)，移动设备和物联网设备的数量指数级增加，Statista预测，到2025年，[全球物联网设备数将增长到750亿](http://m.myjizhi.com/1000000000667235)。物联网终端设备产生的数据量更是爆炸性的增长，其数据量和复杂性远远超过了网络的处理能力。如果将这些设备产生的所有数据传回数据中心，势必需要更多的宽带和计算资源，并且会有很难解决的数据延迟和完整性问题。
 
-​	目前市面上流传的术语有：边缘计算、移动边缘计算、移动云计算、雾计算、多接入边缘计算……虽然他们描述的场景有差别，但他们的核心思想都是通过云端和物联网设备之间的各种现有或新增设备，将计算、网络、存储等能力向网络边缘侧扩展，充分利用整个路径上各种设备的处理能力，就地存储和处理隐私和冗余数据，降低网络带宽占用，提高系统实时性和可用性。而[**雾计算、多接入边缘计算、移动边缘计算、移动云计算……的概念**最终将走向融合，**统称为边缘计算**](https://www.jianshu.com/p/d311a1bc18aa)。
+为了解决此类问题，边缘计算被推上了历史的舞台。直接在更接近数据源的地方对数据进行分析和处理，只将结果或者中心需要的数据才传回数据中心，可以试想一下可以为节省企业多少计算资源和网络宽带。
+
+
+
+## 什么是边缘计算
+
+目前市面上流传的术语有：边缘计算、移动边缘计算、移动云计算、雾计算、多接入边缘计算……虽然他们描述的场景有差别，但他们的核心思想都是通过云端和物联网设备之间的各种现有或新增设备，将计算、网络、存储等能力向网络边缘侧扩展，充分利用整个路径上各种设备的处理能力，就地存储和处理隐私和冗余数据，降低网络带宽占用，提高系统实时性和可用性。而[**雾计算、多接入边缘计算、移动边缘计算、移动云计算……的概念**最终将走向融合，**统称为边缘计算**](https://www.jianshu.com/p/d311a1bc18aa)。
 
 要是非要给**边缘计算**下个定义，我比较推崇**OpenStack基金会**对边缘计算的定义:
 
@@ -33,11 +30,11 @@
 
 那么边缘计算有什么优势？
 
-## 三、边缘计算的优势
 
-<div align="center">
-  <img src="../../.gitbook/assets/edge-arch.png" width=80% title="edge Architecture">
-</div>
+
+## 边缘计算的优势
+
+![edge Architecture](https://raw.githubusercontent.com/attlee-wang/myimage/master/image/20210307175644.png)
 
 -   实时分析处理
 
@@ -59,9 +56,11 @@
 
     将用户的数据保留在边缘，数据的所有权从服务提供商转移到最终用户，更好的保护了用户数据因为某中心被攻破，泄露几十万条用户数据的危险。
 
-## 四、我们想干什么
+    
 
-​	我们想成立一个第三方中立的边缘计算 SIG，研究国内外各家边缘计算项目，推进国内边缘计算的发展，攻艰、共建边缘计算，为边缘计算的发展尽份心力！由此我们的云原生社区边缘计算SIG成立了。
+## 我们想干什么
+
+我们想成立一个第三方中立的边缘计算 SIG，研究国内外各家边缘计算项目，推进国内边缘计算的发展，攻艰、共建边缘计算，为边缘计算的发展尽份心力！由此我们的云原生社区边缘计算SIG成立了。
 
 
 -   我们的目标：交流学习，长成专家！
@@ -82,13 +81,10 @@
     -   [Baetyl](https://github.com/baetyl/baetyl)
     -   [SuperEdge](https://github.com/superedge/superedge)
     -   [Azure IoT Edge](https://github.com/Azure/iot-edge-v1)
-    -   [OpenYurt](https://github.com/openyurtio/openyurt)
-    -   [Airship](https://github.com/paragonie/airship)
-
+    
     排名不分先后，后期也可能会删除或者增加其他项目，具体的活动可能只针对其中一个项目或者多个项目展开，欢迎有兴趣的朋友参与。
 
-
-## 五、如何加入我们？
+## 如何加入我们？
 
 -   如何加入云原生社区边缘计算SIG？
 
@@ -98,7 +94,7 @@
 
 -   如何参与云原生社区边缘SIG活动？
 
- 	云原生社区边缘SIG组织的活动一般会在*云原生社区边缘计算SIG微信群发起活动*，号召参与者，在规定时间内号召有限数量的参与者参加一次具体的活动，所以加群后请留意活动的发起，参与自己感兴趣的活动。
+    云原生社区边缘SIG组织的活动一般会在*云原生社区边缘计算SIG微信群发起活动*，号召参与者，在规定时间内号召有限数量的参与者参加一次具体的活动，所以加群后请留意活动的发起，参与自己感兴趣的活动。
 
 ​	活动的结果会反馈到云原生社区边缘计算SIG微信群和云原生社区，至于是推送公众号文章还是学习笔记，会根据具体活动的形式来定。
 
