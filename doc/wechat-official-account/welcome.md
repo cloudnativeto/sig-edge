@@ -4,8 +4,6 @@
 
 > **云服务已成过去时，边缘计算才是未来！**
 
-![xiao zhang yu](../picture/xiaozhangyu.jpg)
-
 ## 边缘的发展简况
 
 
