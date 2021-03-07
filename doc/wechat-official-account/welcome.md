@@ -10,7 +10,7 @@
 
 
 
-![wulianwang shebei shu](/Users/attlee/go/src/sig-edge/doc/picture/wulianwang_shebei_shu.png)
+![wulianwang shebei shu](../picture/wulianwang_shebei_shu.png)
 
 [Gartner](https://www.gartner.com/smarterwithgartner/)预测[到2025年，超过50%组织将使用分布式云，企业超过75%的数据是在靠近最终用户的边缘创建和处理的](https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-and-operations-leaders)。宝洁公司的首席技术官Alan Boehme，更是喊出了[**云服务已成过去时，边缘计算才是未来**](http://tech.sina.com.cn/csj/2019-10-05/doc-iicezzrr0191253.shtml)。我们先不讨论这些预测是否会成为现实，但是我们可以思考他们为什么会这么说？
 
@@ -34,7 +34,7 @@
 
 ## 边缘计算的优势
 
-![edge Architecture](https://raw.githubusercontent.com/attlee-wang/myimage/master/image/20210307175644.png)
+![edge Architecture](../picture/edge-arch.png)
 
 -   实时分析处理
 
