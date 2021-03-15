@@ -17,6 +17,7 @@ KubeEdge 社区由于人力短缺，中文文档一直疏于维护。现在云�
 * [官余棚（@3ks）](http://github.com/3ks)
 * [徐飞（@fisherxu）](https://github.com/fisherxu)
 * [刘齐均（@kebe7jun）](http://github.com/kebe7jun)
+* [宋净超（@rootsongjc）](https://github.com/rootsongjc)
 
 在参与过程中有任何问题可以与他们联系。
 
