@@ -34,7 +34,7 @@ KubeEdge 社区由于人力短缺，中文文档一直疏于维护。现在云�
 
 ### 加入微信群
 
-微信是 Istio 官方文档翻译工作组的即时通讯工具，并加入 **CNC KubeEdge Doc WG** 微信群（[加入边缘计算 SIG](https://wj.qq.com/s2/8115459/339a/) 即可加入）
+微信是 KubeEdge 官方文档翻译工作组的即时通讯工具，并加入 **CNC KubeEdge Doc WG** 微信群（[加入边缘计算 SIG](https://wj.qq.com/s2/8115459/339a/) 即可加入）
 
 ## 翻译流程
 
