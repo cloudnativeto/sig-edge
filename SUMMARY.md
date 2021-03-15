@@ -8,6 +8,6 @@
 
 ## 2. 边缘计算活动
 
-* [2.1 翻译kubeedge社区文档](2.-bian-yuan-ji-suan-huo-dong/2.1-fan-yi-kubeedge-she-qu-wen-dang.md)
+* [2.1 KubeEdge 官方文档翻译](2.-bian-yuan-ji-suan-huo-dong/2.1-fan-yi-kubeedge-she-qu-wen-dang.md)
 * [2.2 调研十大边缘计算开源项目](2.-bian-yuan-ji-suan-huo-dong/2.2-tiao-yan-shi-da-bian-yuan-ji-suan-kai-yuan-xiang-mu.md)
 
