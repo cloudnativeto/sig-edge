@@ -9,6 +9,10 @@
 
 ## 2. 边缘计算活动 <a id="action"></a>
 
-* [2.1 KubeEdge 官方文档翻译](action/kubeedge-doc-translation.md)
-* [2.2 《边缘计算十大开源项目》](action/top-project.md)
+* [2.1 翻译工作](action/translation/README.md)
+  * [KubeEdge 官方文档翻译](action/translation/kubeedge.md)
+* [2.2 书籍书写](action/book/README.md)
+  * [《边缘计算十大开源项目》](action/book/edge-book/README.md)
+    * [1. 边缘概述](action/book/edge-book/abstract.md)
+    * [2. 应用场景](action/book/edge-book/scene.md)
 
