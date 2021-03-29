@@ -15,4 +15,8 @@
   * [《边缘计算十大开源项目》](action/book/edge-book/README.md)
     * [1. 边缘概述](action/book/edge-book/abstract.md)
     * [2. 应用场景](action/book/edge-book/scene.md)
+    * [3. K3s+fleet](action/book/edge-book/3.k3s.md)
+    * [4. Kubeedge](action/book/edge-book/4.-kubeedge.md)
+    * [5. OpenYurt](action/book/edge-book/5.-openyurt.md)
+    * [6.SuperEdge](action/book/edge-book/6.superedge.md)
 
