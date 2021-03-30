@@ -17,6 +17,7 @@
 * Kubeedge
 * OpenYurt
 * SuperEdge
+* StarlingX
 
 #### 第三大章：边缘存储/CDN
 

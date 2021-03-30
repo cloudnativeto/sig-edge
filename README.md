@@ -55,6 +55,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * [OpenYurt](https://github.com/openyurtio/openyurt)
 * [Airship](https://github.com/paragonie/airship)
 * [OpenNESS](https://github.com/open-ness)
+* [StarlingX](https://www.starlingx.io/)
 
 排名不分先后，后期也可能会删除或者增加其他项目，具体的活动可能只针对其中一个项目或者多个项目展开，欢迎有兴趣的朋友参与。
 

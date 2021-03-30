@@ -19,4 +19,4 @@
     * [4. Kubeedge](action/book/edge-book/4.kubeedge.md)
     * [5. OpenYurt](action/book/edge-book/5.openyurt.md)
     * [6.SuperEdge](action/book/edge-book/6.superedge.md)
-
+    * [7. StarlingX](action/book/edge-book/7.starlingx.md)
