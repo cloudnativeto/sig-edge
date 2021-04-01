@@ -20,4 +20,5 @@
     * [5. OpenYurt](action/book/edge-book/5.openyurt.md)
     * [6.SuperEdge](action/book/edge-book/6.superedge.md)
     * [7.Edgex Foundry](action/book/edge-book/7.edgex-foundry.md)
+    * [6.Starlingx](action/book/edge-book/starlingx.md)
 
