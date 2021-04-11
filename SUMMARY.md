@@ -11,16 +11,4 @@
 
 * [2.1 翻译工作](action/translation/README.md)
   * [KubeEdge 官方文档翻译](action/translation/kubeedge.md)
-* [2.2 书籍书写](action/book/README.md)
-  * [《边缘计算十大开源项目》](action/book/edge-book/README.md)
-    * [1. 边缘概述](action/book/edge-book/1.abstract.md)
-    * [2. 应用场景](action/book/edge-book/2.scene.md)
-    * [3. K3s+fleet](action/book/edge-book/3.k3s.md)
-    * [4. Kubeedge](action/book/edge-book/4.kubeedge.md)
-    * [5. OpenYurt](action/book/edge-book/5.openyurt.md)
-    * [6.SuperEdge](action/book/edge-book/6.superedge.md)
-    * [7.Edgex Foundry](action/book/edge-book/7.edgex-foundry.md)
-    * [8.Starlingx](action/book/edge-book/8.starlingx.md)
-    * [9.Akraino](action/book/edge-book/9.akraino.md)
-    * [10.OpenNESS](action/book/edge-book/openness.md)
 
