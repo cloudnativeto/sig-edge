@@ -33,13 +33,10 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 方式一：请填写 [申请表](https://wj.qq.com/s2/8115459/339a/) 入群；
 * 方式二：扫描下方左侧二维码，填写相应信息入群；
 * 方式三：扫描下方右侧二位码，加Jimmy song为好友，发送“加入edge sig”入群；
- 
- 
-<div align="center">    
-<img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh3M6TKC0kXgexijfs%2Fjimmywechat.png" width=30% title="jimmy">
-<img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh1ZuvFdpzHr_SuKbo%2Fedgesig%E9%97%AE%E5%8D%B7.png" width=35% title="wujuan">  </div>
 
- 加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
+![Join edge-sig](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYhXYRED4gDX6QiVDQR%2F-MYhYPsaBUqMQl2aCRrJ%2Fedgesig-join.png)
+
+加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
 
 ### 如何成为云原生社区边缘 SIG 的志愿者？
 
