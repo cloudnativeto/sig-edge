@@ -35,6 +35,11 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 方式三：扫描下方右侧二位码，加Jimmy song为好友，发送“加入edge sig”入群；
 
  ![](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh1ZuvFdpzHr_SuKbo%2Fedgesig%E9%97%AE%E5%8D%B7.png?alt=media&token=62bfa622-6bc6-48ca-9dde-13e1fdea22ac) ![](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh3M6TKC0kXgexijfs%2Fjimmywechat.png?alt=media&token=6ec443ea-7b06-488b-813b-232b3328ea47)
+ 
+ 
+ <div align="center">    
+<img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh1ZuvFdpzHr_SuKbo%2Fedgesig%E9%97%AE%E5%8D%B7.png" width=30% title="TKEEedge私有化灵活交付，全景图">  <img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh3M6TKC0kXgexijfs%2Fjimmywechat.png" width=38% title="TKEEedge私有化灵活交付，全景图">
+</div>
 
  加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
 
