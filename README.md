@@ -34,7 +34,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 方式二：扫描下方左侧二维码，填写相应信息入群；
 * 方式三：扫描下方右侧二位码，加Jimmy song为好友，发送“加入edge sig”入群；
 
-![Join edge-sig](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYhXYRED4gDX6QiVDQR%2F-MYhYPsaBUqMQl2aCRrJ%2Fedgesig-join.png)
+![](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYharIFkylmDSJw-z2t%2F-MYhavCDXh981okoKPoF%2Fedge-sig-join.png?alt=media&token=da9dcbaf-2ec0-4a71-9388-87ce54bd7f6f)
 
 加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
 
