@@ -9,6 +9,5 @@
 
 ## 2. 边缘计算活动 <a id="action"></a>
 
-* [2.1 翻译工作](action/translation/README.md)
-  * [KubeEdge 官方文档翻译](action/translation/kubeedge.md)
+* [2.1 KubeEdge 官方文档翻译](action/kubeedge.md)
 
