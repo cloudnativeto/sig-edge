@@ -37,7 +37,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
  
 <div align="center">    
 <img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh3M6TKC0kXgexijfs%2Fjimmywechat.png" width=30% title="jimmy">
-<img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh1ZuvFdpzHr_SuKbo%2Fedgesig%E9%97%AE%E5%8D%B7.png" width=33% title="wujuan">  </div>
+<img src="https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYh-zHAWSsf4Ny2MXjL%2F-MYh1ZuvFdpzHr_SuKbo%2Fedgesig%E9%97%AE%E5%8D%B7.png" width=35% title="wujuan">  </div>
 
  加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
 
