@@ -18,7 +18,7 @@
 
   > 推荐语：看边缘计算如何落地阿里边缘实时推理，实现手机淘宝千人千模精准推送，比你还懂自己……
 
-* 05课：[阿里云高级技术专家周哲：阿里云边缘云原生应用实践](https://mp.weixin.qq.com/s/RKk3CU7ivdoyRwsmjSfUbg)
+* 05课：[阿里云高级技术专家周哲：阿里云边缘云原生应用实践](https://mp.weixin.qq.com/s/lEwka3c5Awou48c6EbMweg)
 
   > 推荐语：看阿里如何把CDN， 视频转码，终端设备搬上边缘计算！
 
