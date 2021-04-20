@@ -6,6 +6,7 @@
 
 * [1.1 书籍推荐](learn/book.md)
 * [1.2 精华博客](learn/blog.md)
+* [1.3 边缘学习](learn/learn.md)
 
 ## 2. 边缘计算活动 <a id="action"></a>
 
