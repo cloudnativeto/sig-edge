@@ -42,7 +42,10 @@
       </td>
       <td style="text-align:center">&#x4EFB;&#x65ED;&#x4E1C;</td>
       <td style="text-align:center">3&#x661F;</td>
-      <td style="text-align:center">LF Edge&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</td>
+      <td style="text-align:center">
+        <p>LF Edge&#x5F00;</p>
+        <p>&#x6E90;&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">04</td>
