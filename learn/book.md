@@ -9,11 +9,54 @@
 
 ### 2. 技术书籍
 
-| 序号号 | 书名 | 作者 | 推荐指数 | 推荐理由 |
-| :---: | :---: | :---: | :---: | :---: |
-| 01 | [《边缘计算方法与工程实践》](https://item.jd.com/12646088.html) | 张骏 主编 | 4星 | 技术和案例的结合 |
-| 02 | [《雾计算与边缘计算：原理及范式》](https://item.jd.com/12617915.html) | 拉库马·布亚 | 4星 | 边缘未来技术预测 |
-| 03 | [《LF Edge生态与EdgeGallery技术详解》](https://item.jd.com/13050804.html) | 任旭东 | 5星 | LF Edge开源项目介绍 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">&#x5E8F;&#x53F7;&#x53F7;</th>
+      <th style="text-align:center">&#x4E66;&#x540D;</th>
+      <th style="text-align:center">&#x4F5C;&#x8005;</th>
+      <th style="text-align:center">&#x63A8;&#x8350;&#x6307;&#x6570;</th>
+      <th style="text-align:center">&#x63A8;&#x8350;&#x7406;&#x7531;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">01</td>
+      <td style="text-align:center"><a href="https://item.jd.com/12646088.html">&#x300A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x65B9;&#x6CD5;&#x4E0E;&#x5DE5;&#x7A0B;&#x5B9E;&#x8DF5;&#x300B;</a>
+      </td>
+      <td style="text-align:center">&#x5F20;&#x9A8F; &#x4E3B;&#x7F16;</td>
+      <td style="text-align:center">4&#x661F;</td>
+      <td style="text-align:center">&#x6280;&#x672F;&#x548C;&#x6848;&#x4F8B;&#x7684;&#x7ED3;&#x5408;</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">02</td>
+      <td style="text-align:center"><a href="https://item.jd.com/12617915.html">&#x300A;&#x96FE;&#x8BA1;&#x7B97;&#x4E0E;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#xFF1A;&#x539F;&#x7406;&#x53CA;&#x8303;&#x5F0F;&#x300B;</a>
+      </td>
+      <td style="text-align:center">&#x62C9;&#x5E93;&#x9A6C;&#xB7;&#x5E03;&#x4E9A;</td>
+      <td style="text-align:center">3&#x661F;</td>
+      <td style="text-align:center">&#x8FB9;&#x7F18;&#x672A;&#x6765;&#x6280;&#x672F;&#x9884;&#x6D4B;</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">03</td>
+      <td style="text-align:center"><a href="https://item.jd.com/13050804.html">&#x300A;LF Edge&#x751F;&#x6001;&#x4E0E;EdgeGallery&#x6280;&#x672F;&#x8BE6;&#x89E3;&#x300B;</a>
+      </td>
+      <td style="text-align:center">&#x4EFB;&#x65ED;&#x4E1C;</td>
+      <td style="text-align:center">3&#x661F;</td>
+      <td style="text-align:center">LF Edge&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">04</td>
+      <td style="text-align:center"><a href="https://item.jd.com/13322898.html">&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x300B;</a>
+      </td>
+      <td style="text-align:center">&#x4E4B;&#x6C5F;&#x5B9E;&#x9A8C;&#x5BA4;</td>
+      <td style="text-align:center">5&#x661F;</td>
+      <td style="text-align:center">
+        <p>&#x7528;&#x4E09;&#x4E2A;&#x9879;&#x76EE;&#x6784;</p>
+        <p>&#x5EFA;&#x4E86;&#x4E91;&#x8FB9;&#x7AEF;&#x6A21;&#x578B;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3. 边缘白皮书
 
