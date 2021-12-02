@@ -1,0 +1,493 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>边缘计算入门20课 · 云原生社区边缘计算 SIG</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="云原生社区">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-ghcolors.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../action/kubeedge.html" />
+    
+    
+    <link rel="prev" href="blog.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"cloudnativeto/sig-edge","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://cloudnative.to" target="_blank" class="custom-link">回到云原生社区主页</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    云原生社区边缘计算 SIG
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">学习资料</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="book.html">
+            
+                <a href="book.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    书籍推荐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="blog.html">
+            
+                <a href="blog.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    精华博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="learn.html">
+            
+                <a href="learn.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    边缘计算入门20课
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">社区活动</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../action/kubeedge.html">
+            
+                <a href="../action/kubeedge.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    KubeEdge 官方文档翻译
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >边缘计算入门20课</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5165;&#x95E8;20&#x8BFE;">&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5165;&#x95E8;20&#x8BFE;</h1>
+<ul>
+<li><p>&#x7B2C;01&#x8BFE;&#xFF1A;<a href="https://blog.csdn.net/younger_china/article/details/104401966" target="_blank">&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x6DF1;&#x5EA6;&#x8C03;&#x7814;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x6DF1;&#x5EA6;&#x8C03;&#x7814;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#xFF0C;&#x8BA9;&#x60A8;&#x4ECE;&#x6982;&#x5FF5;&#x3001;&#x5E02;&#x573A;&#x3001;&#x6280;&#x672F;&#x3001;&#x73A9;&#x5BB6;&#x2026;&#x2026;&#x5BF9;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x6709;&#x4E2A;&#x5168;&#x5C40;&#x7684;&#x8BA4;&#x8BC6;&#xFF0C;&#x5E26;&#x60A8;&#x8D70;&#x8FDB;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x7684;&#x5927;&#x95E8;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;02&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/jyxTYxUHD-8uVItMm7doew" target="_blank">&#x4E91;&#x8D70;&#x5411;&#x8FB9;&#x7F18;&#xFF0C;&#x4E91;&#x5C06;&#x65E0;&#x5904;&#x4E0D;&#x5728;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x9700;&#x8981;&#x5408;&#x4F5C;&#x5171;&#x5EFA;&#xFF0C;&#x9760;&#x4EFB;&#x610F;&#x4E00;&#x5BB6;&#x5382;&#x5546;&#x62FF;&#x4E0D;&#x4E0B;&#x6765;&#xFF0C;&#x5FC5;&#x987B;&#x9760;&#x786C;&#x4EF6;&#x63D0;&#x4F9B;&#x5546;&#x3001;&#x7F51;&#x7EDC;&#x8FD0;&#x8425;&#x5546;&#x3001;&#x4E91;&#x5382;&#x5546;&#x3001;&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x5546;&#x2026;&#x2026;&#x4E00;&#x5757;&#x5E72;&#x624D;&#x80FD;&#x5F7B;&#x5E95;&#x6253;&#x901A;&#x4E91;&#x8FB9;&#x7AEF;&#xFF0C;&#x5B9E;&#x73B0;&#x4E07;&#x7269;&#x4E92;&#x8054;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;03&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/O-9BCSTvVMlI59plPt1jfA" target="_blank">&#x4E2D;&#x56FD;&#x4FE1;&#x901A;&#x9662;&#x738B;&#x54F2;&#xFF1A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x53D1;&#x5C55;&#x73B0;&#x72B6;&#x4E0E;&#x8D8B;&#x52BF;&#x5C55;&#x671B;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x672C;&#x6587;&#x4ECE;&#x5B66;&#x672F;&#x754C;&#x53CA;&#x4EA7;&#x4E1A;&#x754C;&#x4E24;&#x4E2A;&#x7EF4;&#x5EA6;&#x6DF1;&#x5165;&#x5256;&#x6790;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x6982;&#x5FF5;&#x5185;&#x6DB5;&#x3001;&#x5B66;&#x672F;&#x65B9;&#x5411;&#x3001;&#x4EA7;&#x4E1A;&#x8DEF;&#x5F84;&#xFF0C;&#x7EFC;&#x8FF0;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5728;&#x6838;&#x5FC3;&#x73AF;&#x8282;&#x53D1;&#x5C55;&#x9762;&#x4E34;&#x7684;&#x6311;&#x6218;&#x548C;&#x95EE;&#x9898;&#xFF0C;&#x7814;&#x5224;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x672A;&#x6765;&#x53D1;&#x5C55;&#x6001;&#x52BF;&#x4E0E;&#x65B9;&#x5411;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;04&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/O806chMT_BFzkA-Tuv94Hw" target="_blank">EdgeRec&#xFF1A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5728;&#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x5E94;&#x7528;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x770B;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5982;&#x4F55;&#x843D;&#x5730;&#x963F;&#x91CC;&#x8FB9;&#x7F18;&#x5B9E;&#x65F6;&#x63A8;&#x7406;&#xFF0C;&#x5B9E;&#x73B0;&#x624B;&#x673A;&#x6DD8;&#x5B9D;&#x5343;&#x4EBA;&#x5343;&#x6A21;&#x7CBE;&#x51C6;&#x63A8;&#x9001;&#xFF0C;&#x6BD4;&#x4F60;&#x8FD8;&#x61C2;&#x81EA;&#x5DF1;&#x2026;&#x2026;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;05&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/lEwka3c5Awou48c6EbMweg" target="_blank">&#x963F;&#x91CC;&#x4E91;&#x9AD8;&#x7EA7;&#x6280;&#x672F;&#x4E13;&#x5BB6;&#x5468;&#x54F2;&#xFF1A;&#x963F;&#x91CC;&#x4E91;&#x8FB9;&#x7F18;&#x4E91;&#x539F;&#x751F;&#x5E94;&#x7528;&#x5B9E;&#x8DF5;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x770B;&#x963F;&#x91CC;&#x5982;&#x4F55;&#x628A;CDN&#xFF0C; &#x89C6;&#x9891;&#x8F6C;&#x7801;&#xFF0C;&#x7EC8;&#x7AEF;&#x8BBE;&#x5907;&#x642C;&#x4E0A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;06&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/03bJV6fPmR7ZUO8RfRvkMw" target="_blank">KubeEdge&#x5B50;&#x9879;&#x76EE;Sedna 0.1&#x53D1;&#x5E03;&#xFF01;&#x652F;&#x6301;&#x8FB9;&#x4E91;&#x534F;&#x540C;&#x589E;&#x91CF;&#x5B66;&#x4E60;&#x3001;&#x8054;&#x90A6;&#x5B66;&#x4E60;&#x3001;&#x534F;&#x540C;&#x63A8;&#x7406;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;KubeEdge&#x5B50;&#x9879;&#x76EE;Sedna&#xFF0C;&#x8BA9;&#x60A8;&#x53EF;&#x4EE5;&#x52A8;&#x624B;&#x5B9E;&#x8DF5;&#x8FB9;&#x7F18;AI&#x63A8;&#x7406;&#xFF0C;&#x4F53;&#x9A8C;&#x8FB9;&#x7F18;&#x667A;&#x6167;&#x2026;&#x2026;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;07&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/8CivIO3-VXx-0q6_0euWHw" target="_blank">&#x7528;SuperEdge&#x7EDF;&#x7BA1;&#x8FB9;&#x7F18;&#x8BBE;&#x5907;&#x548C;&#x673A;&#x5668;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x4E00;&#x5957;SuperEdge&#x8FB9;&#x7F18;&#x96C6;&#x7FA4;&#xFF0C;&#x7EDF;&#x7BA1;&#x60A8;&#x6D12;&#x843D;&#x5728;&#x5404;&#x4E2A;&#x5730;&#x533A;&#x7684;&#x8FB9;&#x7F18;&#x8BBE;&#x5907;&#x548C;&#x673A;&#x5668;&#xFF0C;&#x5B9E;&#x73B0;&#x514D;&#x8D39;&#x4E91;&#x7AEF;&#x5168;&#x7BA1;&#x63A7;!</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;08&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/76MbCKPRG2VZ80bvs-xqbw" target="_blank">&#x5982;&#x4F55;&#x4F7F;&#x7528;Kubernetes&#x7BA1;&#x7406;&#x4E2D;&#x56FD;&#x9AD8;&#x901F;&#x516C;&#x8DEF;&#x4E0A;&#x7684;10&#x4E07;&#x8FB9;&#x7F18;&#x8282;&#x70B9;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x770B;Kubernetes&#x2795; KubeEdge&#x5982;&#x4F55;&#x7BA1;&#x7406;&#x9AD8;&#x901F;&#x516C;&#x8DEF;10&#x4E07;&#x4E2A;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#xFF0C;&#x4E3A;&#x9AD8;&#x901F;&#x516C;&#x8DEF;ETC&#x8054;&#x7F51;&#x548C;&#x63A8;&#x52A8;&#x53D6;&#x6D88;&#x7701;&#x754C;&#x6536;&#x8D39;&#x7AD9;&#x505A;&#x51FA;&#x8D21;&#x732E;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;09&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/uPlEVYnHDNwQau7CSN4YQQ" target="_blank">&#x8FB9;&#x4E91;&#x534F;&#x540C;&#xFF0C;&#x6253;&#x901A;AI&#x6700;&#x540E;&#x4E00;&#x516C;&#x91CC;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x4E0E;AI&#x6DF1;&#x5EA6;&#x878D;&#x5408;&#x6210;&#x4E3A;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#xFF0C;Gartner&#x8BA4;&#x4E3A;2~5&#x5E74;&#x5185;&#x8FB9;&#x7F18;AI&#x5C06;&#x8D8B;&#x4E8E;&#x6210;&#x719F;&#x3002;&#x534E;&#x4E3A;&#x5728;2021&#x5F00;&#x53D1;&#x8005;&#x5927;&#x4F1A;&#x4E0A;&#x5206;&#x4EAB;&#x4E86;&#x8FB9;&#x7F18; AI &#x7684;&#x5E94;&#x7528;&#x573A;&#x666F;&#x3001;&#x4EF7;&#x503C;&#x548C;&#x9762;&#x4E34;&#x7684;&#x6280;&#x672F;&#x6311;&#x6218;&#xFF0C;&#x503C;&#x5F97;&#x4E00;&#x770B;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;10&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/LATtAVu6l4gUl03sJ96tBQ" target="_blank">&#x7528;edgeadm&#x4E00;&#x952E;&#x5B89;&#x88C5;&#x8FB9;&#x7F18;Kubernetes&#x96C6;&#x7FA4;&#x548C;&#x539F;&#x751F;Kubernetes&#x96C6;&#x7FA4;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x7528;edgeadm&#x4E00;&#x952E;&#x5B89;&#x88C5;&#x8FB9;&#x7F18;Kubernetes&#x96C6;&#x7FA4;&#x548C;&#x539F;&#x751F;Kubernetes&#x96C6;&#x7FA4;&#xFF0C;&#x8BA9;&#x60A8;&#x4E0D;&#x4F46;&#x53EF;&#x4EE5;&#x7BA1;&#x7406;&#x4E2D;&#x5FC3;&#x8282;&#x70B9;&#x548C;&#x4E2D;&#x5FC3;&#x5E94;&#x7528;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x7BA1;&#x7406;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#x548C;&#x8FB9;&#x7F18;&#x5E94;&#x7528;&#xFF0C;&#x800C;&#x4E14;&#x60A8;&#x518D;&#x4E5F;&#x4E0D;&#x5FC5;&#x4E3A;&#x642D;&#x5EFA;Kubernetes&#x96C6;&#x7FA4;&#x800C;&#x70E6;&#x607C;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;11&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/7DeJgL6qNLANj4xB-WztsQ" target="_blank">&#x57FA;&#x4E8E;KubeEdge&#x5B9E;&#x73B0;&#x4E2D;&#x56FD;&#x79FB;&#x52A8;10086&#x5BA2;&#x670D;&#x4E91;&#x8FB9;&#x534F;&#x540C;&#x5E73;&#x53F0;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x4E2D;&#x56FD;&#x79FB;&#x52A8;10086&#x5BA2;&#x670D;&#x90E8;&#x5229;&#x7528;KubeEdge&#x843D;&#x5730;&#x53CC;&#x4E2D;&#x5FC3;+31&#x7701;&#x5206;&#x516C;&#x53F8;&#x4E00;&#x6735;&#x4E91;&#xFF0C;&#x6210;&#x529F;&#x7684;&#x5B9E;&#x73B0;&#x4E86;&#x4E91;&#x8FB9;&#x534F;&#x540C;&#x3001;&#x8D44;&#x6E90;&#x7EDF;&#x7BA1;&#x3001;&#x7B97;&#x529B;&#x4E0B;&#x6C89;&#x2026;&#x2026;&#x80FD;&#x529B;&#xFF0C;&#x662F;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5BB9;&#x5668;&#x670D;&#x52A1;&#x7684;&#x4E00;&#x4E2A;&#x5B8C;&#x5907;&#x5178;&#x578B;&#x6848;&#x4F8B;&#xFF0C;&#x6B22;&#x8FCE;&#x5B66;&#x4E60;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;12&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/p5pLg998x0NbECxyz-GpZg" target="_blank">Volcano&#x67B6;&#x6784;&#x8BBE;&#x8BA1;&#x4E0E;&#x539F;&#x7406;&#x4ECB;&#x7ECD;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;CNCF&#x9996;&#x4E2A;&#x6279;&#x91CF;&#x8BA1;&#x7B97;&#x9879;&#x76EE;Volcano&#xFF0C;&#x9488;&#x5BF9;&#x5927;&#x6570;&#x636E;&#x573A;&#x666F;&#x6269;&#x5C55;&#x4E86;Kube-Scheduler&#x3001;&#x4F18;&#x5316;&#x4E86;Job&#x6A21;&#x578B;&#x3001;&#x5F15;&#x5165;Queue&#x5904;&#x7406;&#x4F5C;&#x4E1A;&#x4EFB;&#x52A1;&#x2026;&#x2026;&#x8BA9;&#x60A8;&#x7684;Sprk&#x3001;Flik&#x3001;TensorFlow&#x3001;Argo&#x2026;&#x2026;&#x540C;&#x65F6;&#x5904;&#x7406;&#x767E;&#x4E07;&#x4F5C;&#x4E1A;&#x4E0D;&#x518D;&#x662F;&#x68A6;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;13&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/QI5T3NWtOkRpWDepCpVY5w" target="_blank">&#x4E00;&#x6587;&#x8BFB;&#x61C2; SuperEdge &#x7684;&#x4E91;&#x8FB9;&#x96A7;&#x9053;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x4E91;&#x8FB9;&#x96A7;&#x9053;&#x662F;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5BB9;&#x5668;&#x5E73;&#x53F0;&#x8EB2;&#x4E0D;&#x8FC7;&#x53BB;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x672C;&#x6587;&#x5E26;&#x60A8;&#x6DF1;&#x5165;&#x6E90;&#x7801;&#xFF0C;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x4E91;&#x8FB9;&#x96A7;&#x9053;&#x7684;&#x827A;&#x672F;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;14&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/_vzSwRFGxJCvnJa5BOZsqQ" target="_blank">&#x6253;&#x7834;&#x5185;&#x7F51;&#x58C1;&#x5792;&#xFF0C;&#x4ECE;&#x4E91;&#x7AEF;&#x4E00;&#x6B21;&#x6DFB;&#x52A0;&#x6210;&#x767E;&#x4E0A;&#x5343;&#x7684;&#x8FB9;&#x7F18;&#x8282;&#x70B9;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x5BB9;&#x5668;&#x4E91;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5F7B;&#x5E95;&#x8FDB;&#x5165;&#x751F;&#x4EA7;&#x65F6;&#x4EE3;&#xFF0C;SuperEdge Penetrator &#x4E3A;&#x60A8;&#x63D0;&#x4F9B;&#x4ECE;&#x4E91;&#x7AEF;&#x4E00;&#x6B21;&#x6DFB;&#x52A0;&#x8FB9;&#x7F18;&#x5185;&#x7F51;&#x6570;&#x767E;&#x8282;&#x70B9;&#xFF0C;&#x8BA9;&#x4F60;&#x8FC5;&#x901F;&#x6269;&#x5BB9;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#x548C;&#x670D;&#x52A1;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;15&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/r-H0tvZgLlI9OwQHO22WTg" target="_blank">&#x4E00;&#x6587;&#x8BFB;&#x61C2; SuperEdge &#x8FB9;&#x7F18;&#x5BB9;&#x5668;&#x67B6;&#x6784;&#x4E0E;&#x539F;&#x7406;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;SuperEdge&#x662F;&#x817E;&#x8BAF;&#x63A8;&#x51FA;&#x7684;Kubernetes&#x539F;&#x751F;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8FB9;&#x7F18;&#x4E91;&#x8BA1;&#x7B97;&#x7BA1;&#x7406;&#x6846;&#x67B6;&#xFF0C;&#x5176;&#x8FB9;&#x7F18;&#x81EA;&#x6CBB;&#x3001;&#x5206;&#x5E03;&#x5F0F;&#x5065;&#x5EB7;&#x68C0;&#x67E5;&#x3001;&#x8FB9;&#x7F18;&#x5E94;&#x7528;&#x53D1;&#x5E03;ServerGroup&#x3001;tunnel&#x96A7;&#x9053;&#x7B49;&#x7EC4;&#x4EF6;&#x90FD;&#x53EF;&#x4EE5;&#x5355;&#x4E2A;&#x5728;&#x81EA;&#x5DF1;&#x7CFB;&#x7EDF;&#x4E2D;&#x96C6;&#x6210;&#xFF0C;&#x6B22;&#x8FCE;&#x4E86;&#x89E3;&#x80CC;&#x540E;&#x7684;&#x539F;&#x7406;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;16&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/dxZFei9lQCzUYjox7LcIYg" target="_blank">2020&#x5341;&#x5927;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x5E26;&#x60A8;&#x6DF1;&#x5165;&#x8FB9;&#x7F18;&#x65B9;&#x5411;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;SuperEdge&#x662F;&#x817E;&#x8BAF;&#x63A8;&#x51FA;&#x7684;Kubernetes&#x539F;&#x751F;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8FB9;&#x7F18;&#x4E91;&#x8BA1;&#x7B97;&#x7BA1;&#x7406;&#x6846;&#x67B6;&#xFF0C;&#x5176;&#x8FB9;&#x7F18;&#x81EA;&#x6CBB;&#x3001;&#x5206;&#x5E03;&#x5F0F;&#x5065;&#x5EB7;&#x68C0;&#x67E5;&#x3001;&#x8FB9;&#x7F18;&#x5E94;&#x7528;&#x53D1;&#x5E03;ServerGroup&#x3001;tunnel&#x96A7;&#x9053;&#x7B49;&#x7EC4;&#x4EF6;&#x90FD;&#x53EF;&#x4EE5;&#x5355;&#x4E2A;&#x5728;&#x81EA;&#x5DF1;&#x7CFB;&#x7EDF;&#x4E2D;&#x96C6;&#x6210;&#xFF0C;&#x6B22;&#x8FCE;&#x4E86;&#x89E3;&#x80CC;&#x540E;&#x7684;&#x539F;&#x7406;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;17&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/LATtAVu6l4gUl03sJ96tBQ" target="_blank">Addon SuperEdge &#x8BA9;&#x60A8;&#x539F;&#x751F;K8s&#x96C6;&#x7FA4;&#x53EF;&#x4EE5;Join&#x4EFB;&#x610F;&#x4F4D;&#x7F6E;&#x7684;&#x8FB9;&#x7F18;&#x8282;&#x70B9;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;Addon SuperEdge &#x8BA9;&#x60A8;&#x539F;&#x751F;K8s&#x96C6;&#x7FA4;&#x53EF;&#x4EE5;Join&#x4EFB;&#x610F;&#x4F4D;&#x7F6E;&#x7684;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#xFF0C;&#x7528;&#x4E00;&#x4E2A;K8s&#x96C6;&#x7FA4;&#x65E2;&#x53EF;&#x7BA1;&#x7406;&#x4E2D;&#x5FC3;&#x8282;&#x70B9;&#x548C;&#x4E2D;&#x5FC3;&#x5E94;&#x7528;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7BA1;&#x7406;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#x548C;&#x8FB9;&#x7F18;&#x5E94;&#x7528;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;18&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/ip-Wm5HJrtWMrtZhuRwdog" target="_blank">SuperEdge &#x4E91;&#x8FB9;&#x96A7;&#x9053;&#x65B0;&#x7279;&#x6027;: &#x4ECE;&#x4E91;&#x7AEF;SSH&#x8FD0;&#x7EF4;&#x8FB9;&#x7F18;&#x5185;&#x7F51;&#x8282;&#x70B9;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;SuperEdge &#x4E91;&#x7AEF;&#x8FD0;&#x7EF4;&#x65B0;&#x7279;&#x6027;&#xFF0C;&#x4ECE;&#x4E91;&#x7AEF;&#x76F4;&#x63A5;&#x5B89;&#x5168;&#x7684;SSH&#x5230;&#x6CA1;&#x6709;&#x516C;&#x7F51;IP&#x7684;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#xFF0C;&#x76F4;&#x63A5;&#x4ECE;&#x4E91;&#x7AEF;&#x8FD0;&#x7EF4;&#x8FB9;&#x7F18;&#x8282;&#x70B9;&#x548C;&#x8FB9;&#x7F18;&#x76D2;&#x5B50;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;19&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/jxPJyzuyMG5y4iq6c_7myw" target="_blank">&#x63A8;&#x8350;&#x4E00;&#x672C;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x6280;&#x672F;&#x7684;&#x5165;&#x95E8;&#x4E66;&#x7C4D;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;&#x63A8;&#x8350;&#x4E00;&#x672C;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x6280;&#x672F;&#x7684;&#x5165;&#x95E8;&#x4E66;&#x7C4D;&#x2014;&#x2014;&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x300B;&#xFF0C;&#x672C;&#x4E66;&#x56F4;&#x7ED5;&#x4E91;&#x4FA7;Kubernetes&#xFF0C;&#x8FB9;&#x4FA7;KubeEdge&#xFF0C;&#x7AEF;&#x4FA7;EdgeX Foundry&#x8BB2;&#x8FF0;&#x4E86;&#x4E09;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x5185;&#x5728;&#x539F;&#x7406;&#xFF0C;&#x4EE5;&#x53CA;&#x7B80;&#x8981;&#x7684;&#x6E90;&#x7801;&#x5206;&#x6790;&#xFF0C;&#x8BD5;&#x7740;&#x7528;&#x8FD9;&#x4E2A;&#x4E09;&#x4E2A;&#x9879;&#x76EE;&#x6784;&#x5EFA;&#x8D77;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x7684;&#x4E91;&#x7AEF;&#x8FB9;&#x6846;&#x67B6;&#xFF0C;&#x503C;&#x5F97;&#x4E00;&#x7AA5;&#x7A76;&#x7ADF;&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x7B2C;20&#x8BFE;&#xFF1A;<a href="https://mp.weixin.qq.com/s/UnCn4U0P_5AdCPomKuZa0A" target="_blank">FabEdge&#x8FB9;&#x7F18;&#x7F51;&#x7EDC;&#x65B9;&#x6848;&#xFF0C;&#x4E13;&#x4E1A;&#x89E3;&#x51B3;&#x8FB9;&#x7F18;&#x7F51;&#x7EDC;&#x95EE;&#x9898;</a></p>
+<blockquote>
+<p>&#x63A8;&#x8350;&#x8BED;&#xFF1A;2021&#x5E74;8&#x6708;2&#x65E5;&#xFF0C;&#x535A;&#x4E91;&#x6B63;&#x5F0F;&#x5F00;&#x6E90; <strong>FabEdge</strong> &#x8FB9;&#x7F18;&#x7F51;&#x7EDC;&#x65B9;&#x6848;&#x3002;FabEdge &#x662F;&#x4E00;&#x6B3E;&#x57FA;&#x4E8E; kubernetes &#x6784;&#x5EFA;&#x7684;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x5F00;&#x6E90;&#x7F51;&#x7EDC;&#x65B9;&#x6848;&#xFF0C;&#x4E3B;&#x8981;&#x89E3;&#x51B3;&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x573A;&#x666F;&#x4E0B;<strong>&#x5BB9;&#x5668;&#x7F51;&#x7EDC;&#x914D;&#x7F6E;&#x7BA1;&#x7406;&#x590D;&#x6742;&#x3001;&#x7F51;&#x7EDC;&#x5272;&#x88C2;&#x4E92;&#x4E0D;&#x901A;&#x4FE1;&#x3001;&#x7F3A;&#x5C11;&#x670D;&#x52A1;&#x53D1;&#x73B0;&#x3001;&#x7F3A;&#x5C11;&#x62D3;&#x6251;&#x611F;&#x77E5;&#x80FD;&#x529B;&#x3001;&#x65E0;&#x6CD5;&#x63D0;&#x4F9B;&#x5C31;&#x8FD1;&#x8BBF;&#x95EE;</strong>&#x7B49;&#x96BE;&#x9898;&#x3002;&#x8981;&#x662F;&#x9047;&#x5230;&#x4E91;&#x8FB9;&#x548C;&#x8FB9;&#x8FB9;&#x8BBF;&#x95EE;&#x7B49;&#x96BE;&#x9898;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x53C2;&#x8003;<strong>FabEdge</strong> &#x7684;&#x667A;&#x6167;&#x3002;</p>
+</blockquote>
+</li>
+</ul>
+<footer class="page-footer"><span class="copyright">&#x672C;&#x7AD9;&#x57FA;&#x4E8E; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC 4.0 &#x534F;&#x8BAE;</a> &#x53D1;&#x5E03; | <a href="https://cloudnative.to" target="_blank"> &#x4E91;&#x539F;&#x751F;&#x793E;&#x533A;</a> all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification"> Updated at 
+2021-12-02 10:46:49
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="blog.html" class="navigation navigation-prev " aria-label="Previous page: 精华博客">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../action/kubeedge.html" class="navigation navigation-next " aria-label="Next page: KubeEdge 官方文档翻译">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"边缘计算入门20课","level":"2.3","depth":1,"next":{"title":"KubeEdge 官方文档翻译","level":"3.1","depth":1,"path":"action/kubeedge.md","ref":"action/kubeedge.md","articles":[]},"previous":{"title":"精华博客","level":"2.2","depth":1,"path":"learn/blog.md","ref":"learn/blog.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","image-captions","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","3-ba","theme-default","-highlight","prism","prism-themes","lightbox","ga","sitemap-general"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"本站基于 <a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh>CC 4.0 协议</a> 发布 | <a href=https://cloudnative.to> 云原生社区</a>","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-ghcolors.css"]},"github":{"url":"https://github.com/cloudnativeto/sig-edge/"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/cloudnativeto/sig-edge/blob/main/"},"splitter":{},"codesnippet":{},"sitemap-general":{"prefix":"https://cloudnative.to/sig-edge/"},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"cloudnativeto/sig-edge","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"f3dc895ea3bd6186cd835841d365c103"},"ga":{"configuration":"auto","token":"UA-93485976-4"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"theme":"default","author":"云原生社区","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: 边缘计算概念图","alt":"边缘计算概念图","nro":1,"url":"images/edge-arch.png","index":1,"caption_template":"_CAPTION_","label":"边缘计算概念图","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","list_caption":"Figure: 加入云原生社区边缘计算 SIG 二维码","alt":"加入云原生社区边缘计算 SIG 二维码","nro":2,"url":"images/edge-wechat.jpg","index":2,"caption_template":"_CAPTION_","label":"加入云原生社区边缘计算 SIG 二维码","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"index.html#fig1.1.3","level":"1.1","list_caption":"Figure: 云原生社区二维码","alt":"云原生社区二维码","nro":3,"url":"images/cnc-wechat.jpg","index":3,"caption_template":"_CAPTION_","label":"云原生社区二维码","attributes":{},"skip":false,"key":"1.1.3"}]},"title":"云原生社区边缘计算 SIG","language":"zh-hans","links":{"sidebar":{"回到云原生社区主页":"https://cloudnative.to"}},"gitbook":"*","description":"云原生社区边缘计算特别兴趣小组"},"file":{"path":"learn/learn.md","mtime":"2021-12-02T10:46:49.388Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-02T10:47:19.955Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
