@@ -1,12 +1,8 @@
----
-description: 欢迎来到云原生社区边缘计算 SIG。
----
-
 # 云原生社区边缘计算 SIG
 
 云原生社区边缘计算 SIG，第三方中立，志在研究国内外，各家边缘计算项目，推进国内边缘计算的发展，攻艰、共建边缘计算，为边缘计算的发展尽份心力！
 
-![&#x8FB9;&#x7F18;&#x8BA1;&#x7B97;&#x67B6;&#x6784;&#x56FE;](.gitbook/assets/edge-arch.png)
+![边缘计算概念图](images/edge-arch.png)
 
 ## 边缘计算 SIG 介绍
 
@@ -14,7 +10,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 我们的初衷：和志同道合的人一起更好的学习边缘计算；
 * 我们的类型：边缘计算兴趣学习小组；
 * 研究的范围：只研究和边缘计算相关的项目，但不限于场景、系统、源码、异构硬件……
-* 云原生社区边缘计算 SIG 首页：[https://i.cloudnative.to/edge/](https://i.cloudnative.to/edge/)
+* 云原生社区边缘计算 SIG 首页：[https://cloudnative.to/sig-edge/](https://cloudnative.to/sig-edge/)
 * 发起人：
   * [王冬](https://github.com/attlee-wang)
   * [刘淑娟](https://github.com/janeliul)
@@ -34,7 +30,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 * 方式二：扫描下方左侧二维码，填写相应信息入群；
 * 方式三：扫描下方右侧二位码，加Jimmy song为好友，发送“加入edge sig”入群；
 
-![](https://gblobscdn.gitbook.com/assets%2F-MT97chSdT6UUh4jhCT8%2F-MYharIFkylmDSJw-z2t%2F-MYhavCDXh981okoKPoF%2Fedge-sig-join.png?alt=media&token=da9dcbaf-2ec0-4a71-9388-87ce54bd7f6f)
+![加入云原生社区边缘计算 SIG 二维码](images/edge-wechat.jpg)
 
 加入微信交流群，进群您便属于 `云原生社区边缘计算 SIG` 的一员了。
 
@@ -74,7 +70,7 @@ description: 欢迎来到云原生社区边缘计算 SIG。
 
 ### 如何学习？
 
-我们会收集边缘计算相关学习资料，见 [边缘计算 SIG 学习资料库](https://github.com/cloudnativeto/sig-edge/blob/main/learn/README.md)。
+我们会收集边缘计算相关学习资料，见 [边缘计算 SIG 学习资料库](learn/README.md)。
 
 也欢迎您通过这个资料库，把好的边缘计算学习资料推荐给大家。
 
@@ -97,5 +93,5 @@ SIG 成员难免有错误之处，或者做的不好的地方，或者您有更�
 * [边缘计算 SIG 打卡学习记录](https://docs.qq.com/sheet/DWkxlQ29nSFlBdGF6)
 * [云原生社区边缘计算 SIG 工作周报](https://docs.qq.com/doc/DWldHVVZnRG9Jck5B)
 
-![&#x4E91;&#x539F;&#x751F;&#x793E;&#x533A;&#x516C;&#x4F17;&#x53F7;](https://i.loli.net/2020/10/22/7E6DNzWuBj2skeG.png)
+![云原生社区二维码](images/cnc-wechat.jpg)
 

@@ -1,14 +1,14 @@
-# Table of contents
+# 目录
 
 * [云原生社区边缘计算 SIG](README.md)
 
-## 1. 学习资料 <a id="learn"></a>
+## 学习资料
 
-* [1.1 书籍推荐](learn/book.md)
-* [1.2 精华博客](learn/blog.md)
-* [1.3 边缘计算入门20课](learn/learn.md)
+* [书籍推荐](learn/book.md)
+* [精华博客](learn/blog.md)
+* [边缘计算入门20课](learn/learn.md)
 
-## 2. 边缘计算活动 <a id="action"></a>
+## 社区活动
 
-* [2.1 KubeEdge 官方文档翻译](action/kubeedge.md)
+* [KubeEdge 官方文档翻译](action/kubeedge.md)
 

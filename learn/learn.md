@@ -1,4 +1,4 @@
-# 1.3 边缘计算入门20课
+# 边缘计算入门20课
 
 * 第01课：[边缘计算深度调研](https://blog.csdn.net/younger_china/article/details/104401966)
 
