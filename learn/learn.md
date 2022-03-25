@@ -64,7 +64,7 @@
 
   > 推荐语：SuperEdge是腾讯推出的Kubernetes原生的分布式边缘云计算管理框架，其边缘自治、分布式健康检查、边缘应用发布ServerGroup、tunnel隧道等组件都可以单个在自己系统中集成，欢迎了解背后的原理。
 
-* 第17课：[Addon SuperEdge 让您原生K8s集群可以Join任意位置的边缘节点](https://mp.weixin.qq.com/s/LATtAVu6l4gUl03sJ96tBQ)
+* 第17课：[Addon SuperEdge 让您原生K8s集群可以Join任意位置的边缘节点](https://blog.csdn.net/yunxiao6/article/details/118570988)
 
   > 推荐语：Addon SuperEdge 让您原生K8s集群可以Join任意位置的边缘节点，用一个K8s集群既可管理中心节点和中心应用，也可以管理边缘节点和边缘应用。
 
